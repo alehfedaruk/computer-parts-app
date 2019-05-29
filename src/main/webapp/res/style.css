@@ -1,0 +1,89 @@
+.main {
+    width: 40%;
+    margin: 60px auto;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.container th {
+    text-align: center;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-color: #aaa;
+    border-width: 1px;
+    background-color: rgb(28, 179, 224);
+    color: aliceblue;
+}
+
+.container td {
+    text-align: center;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #aaa;
+}
+
+.container tfoot {
+    border-style: none;
+    background-color: cornsilk;
+    font-weight: bold;
+}
+
+.container a {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    color: black;
+}
+
+.container a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.addbutton {
+    padding-top: 10px;
+    float: left;
+}
+
+.pagination a {
+    height: 5px;
+    text-align: right;
+    width: 5px;
+    color: black;
+    padding: 15px;
+    float: right;
+    margin-bottom: 20px;
+    display: block;
+    font: normal 120% 'Verdana';
+}
+
+.footer {
+    padding-top: 20px;
+    height: 10px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.filters {
+    float: right;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 3px;
+}
