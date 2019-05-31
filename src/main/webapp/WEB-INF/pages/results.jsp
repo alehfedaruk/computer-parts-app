@@ -38,10 +38,11 @@
                 <td>${part.required}</td>
                 <td>${part.quantity}</td>
                 <td>
-                    <a href="${pageContext.request.contextPath}/update/${part.id}" >update</a>
+                    <a href="${pageContext.request.contextPath}/update/${part.id}">update</a>
                 </td>
                 <td>
-                    <a href="${pageContext.request.contextPath}/delete/${part.id}" onclick="return confirm('Are you sure?')">delete</a>
+                    <a href="${pageContext.request.contextPath}/delete/${part.id}"
+                       onclick="return confirm('Are you sure?')">delete</a>
                 </td>
             </tr>
         </c:forEach>

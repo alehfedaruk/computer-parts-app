@@ -32,15 +32,19 @@
 
     <div class="row">
         <div class="col">
-            <input type="text" class="form-control" name="title" id="title_update" placeholder="${computerPart.title} - previous value" required minlength="3">
+            <input type="text" class="form-control" name="title" id="title_update"
+                   placeholder="${computerPart.title} - previous value" required minlength="3">
         </div>
         <div class="col">
-            <input type="text" class="form-control" name="required" id="required2_update" placeholder="Is this part required? true/false" required pattern="true|false">
+            <input type="text" class="form-control" name="required" id="required2_update"
+                   placeholder="Is this part required? true/false" required pattern="true|false">
         </div>
         <div class="col">
-            <input type="text" class="form-control" name="quantity" id="quantity2_update" placeholder="${computerPart.quantity} - previous value" required pattern="[0-9]+">
+            <input type="text" class="form-control" name="quantity" id="quantity2_update"
+                   placeholder="${computerPart.quantity} - previous value" required pattern="[0-9]+">
         </div>
     </div>
+
     <div class="addbutton">
         <button type="submit" class="btn btn-primary">Update</button>
     </div>

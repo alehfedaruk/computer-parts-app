@@ -86,7 +86,8 @@
                     <label class="form-check-label" for="inlineCheckbox1"></label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="submit" id="inlineCheckbox2" value="non-required" name="option">
+                    <input class="form-check-input" type="submit" id="inlineCheckbox2" value="non-required"
+                           name="option">
                     <label class="form-check-label" for="inlineCheckbox2"></label>
                 </div>
                 <div class="form-check form-check-inline">
