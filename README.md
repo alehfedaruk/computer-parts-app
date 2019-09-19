@@ -1,12 +1,12 @@
-# ComputerPartsApp
-Application to Javarush internship exam
+# Computer-parts-application
+Application to Javarush online internship
 
-Добрый день,
-заранее благодарю за рассмотрение заявки, и выражаю благодарность за курс JavaRush
-##########
-
-Для подключения к MYSQL базе использовался драйвер 5.1, с 8-ой отказалась работать, чем вызвано, пока не понимаю.
-Database - test;
-table - test;
-user - root;
-password - root;
+**Connecting to MySQL application requires driver of version 5.1. With 8* series drivers this won't work.** <br/>
+Settings to connect to the database: 
+  * database - test,
+  * table - test,
+  * user - root,
+  * password - root;
+  <br/>
+  
+  To feed the database with the data run *script.sql* in the root of this repo
